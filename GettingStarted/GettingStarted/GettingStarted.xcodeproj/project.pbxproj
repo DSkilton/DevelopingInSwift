@@ -7,31 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AE651C4D2681C27300499DE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE651C4C2681C27300499DE9 /* AppDelegate.swift */; };
-		AE651C4F2681C27300499DE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE651C4E2681C27300499DE9 /* SceneDelegate.swift */; };
-		AE651C512681C27300499DE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE651C502681C27300499DE9 /* ViewController.swift */; };
-		AE651C542681C27300499DE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE651C522681C27300499DE9 /* Main.storyboard */; };
-		AE651C562681C27F00499DE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE651C552681C27F00499DE9 /* Assets.xcassets */; };
-		AE651C592681C27F00499DE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE651C572681C27F00499DE9 /* LaunchScreen.storyboard */; };
-		AE651C622681C81300499DE9 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = AE651C602681C81200499DE9 /* map.png */; };
-		AE651C632681C81300499DE9 /* bike router.png in Resources */ = {isa = PBXBuildFile; fileRef = AE651C612681C81300499DE9 /* bike router.png */; };
+		AE651C712681D77700499DE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE651C702681D77700499DE9 /* AppDelegate.swift */; };
+		AE651C732681D77700499DE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE651C722681D77700499DE9 /* SceneDelegate.swift */; };
+		AE651C752681D77700499DE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE651C742681D77700499DE9 /* ViewController.swift */; };
+		AE651C782681D77700499DE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE651C762681D77700499DE9 /* Main.storyboard */; };
+		AE651C7A2681D79000499DE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE651C792681D79000499DE9 /* Assets.xcassets */; };
+		AE651C7D2681D79000499DE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE651C7B2681D79000499DE9 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AE651C492681C27300499DE9 /* Bike Router.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bike Router.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE651C4C2681C27300499DE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AE651C4E2681C27300499DE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AE651C502681C27300499DE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AE651C532681C27300499DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AE651C552681C27F00499DE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AE651C582681C27F00499DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AE651C5A2681C27F00499DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE651C602681C81200499DE9 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
-		AE651C612681C81300499DE9 /* bike router.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bike router.png"; sourceTree = "<group>"; };
+		AE651C6D2681D77700499DE9 /* GettingStarted.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GettingStarted.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE651C702681D77700499DE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE651C722681D77700499DE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AE651C742681D77700499DE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE651C772681D77700499DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE651C792681D79000499DE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE651C7C2681D79000499DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE651C7E2681D79000499DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AE651C462681C27300499DE9 /* Frameworks */ = {
+		AE651C6A2681D77700499DE9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,73 +37,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AE651C402681C27300499DE9 = {
+		AE651C642681D77700499DE9 = {
 			isa = PBXGroup;
 			children = (
-				AE651C4B2681C27300499DE9 /* Bike Router */,
-				AE651C4A2681C27300499DE9 /* Products */,
+				AE651C6F2681D77700499DE9 /* GettingStarted */,
+				AE651C6E2681D77700499DE9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AE651C4A2681C27300499DE9 /* Products */ = {
+		AE651C6E2681D77700499DE9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AE651C492681C27300499DE9 /* Bike Router.app */,
+				AE651C6D2681D77700499DE9 /* GettingStarted.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AE651C4B2681C27300499DE9 /* Bike Router */ = {
+		AE651C6F2681D77700499DE9 /* GettingStarted */ = {
 			isa = PBXGroup;
 			children = (
-				AE651C4C2681C27300499DE9 /* AppDelegate.swift */,
-				AE651C4E2681C27300499DE9 /* SceneDelegate.swift */,
-				AE651C502681C27300499DE9 /* ViewController.swift */,
-				AE651C522681C27300499DE9 /* Main.storyboard */,
-				AE651C602681C81200499DE9 /* map.png */,
-				AE651C552681C27F00499DE9 /* Assets.xcassets */,
-				AE651C612681C81300499DE9 /* bike router.png */,
-				AE651C572681C27F00499DE9 /* LaunchScreen.storyboard */,
-				AE651C5A2681C27F00499DE9 /* Info.plist */,
+				AE651C702681D77700499DE9 /* AppDelegate.swift */,
+				AE651C722681D77700499DE9 /* SceneDelegate.swift */,
+				AE651C742681D77700499DE9 /* ViewController.swift */,
+				AE651C762681D77700499DE9 /* Main.storyboard */,
+				AE651C792681D79000499DE9 /* Assets.xcassets */,
+				AE651C7B2681D79000499DE9 /* LaunchScreen.storyboard */,
+				AE651C7E2681D79000499DE9 /* Info.plist */,
 			);
-			path = "Bike Router";
+			path = GettingStarted;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AE651C482681C27300499DE9 /* Bike Router */ = {
+		AE651C6C2681D77700499DE9 /* GettingStarted */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE651C5D2681C27F00499DE9 /* Build configuration list for PBXNativeTarget "Bike Router" */;
+			buildConfigurationList = AE651C812681D79000499DE9 /* Build configuration list for PBXNativeTarget "GettingStarted" */;
 			buildPhases = (
-				AE651C452681C27300499DE9 /* Sources */,
-				AE651C462681C27300499DE9 /* Frameworks */,
-				AE651C472681C27300499DE9 /* Resources */,
+				AE651C692681D77700499DE9 /* Sources */,
+				AE651C6A2681D77700499DE9 /* Frameworks */,
+				AE651C6B2681D77700499DE9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Bike Router";
-			productName = "Bike Router";
-			productReference = AE651C492681C27300499DE9 /* Bike Router.app */;
+			name = GettingStarted;
+			productName = GettingStarted;
+			productReference = AE651C6D2681D77700499DE9 /* GettingStarted.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AE651C412681C27300499DE9 /* Project object */ = {
+		AE651C652681D77700499DE9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					AE651C482681C27300499DE9 = {
+					AE651C6C2681D77700499DE9 = {
 						CreatedOnToolsVersion = 12.5;
 					};
 				};
 			};
-			buildConfigurationList = AE651C442681C27300499DE9 /* Build configuration list for PBXProject "Bike Router" */;
+			buildConfigurationList = AE651C682681D77700499DE9 /* Build configuration list for PBXProject "GettingStarted" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,57 +109,55 @@
 				en,
 				Base,
 			);
-			mainGroup = AE651C402681C27300499DE9;
-			productRefGroup = AE651C4A2681C27300499DE9 /* Products */;
+			mainGroup = AE651C642681D77700499DE9;
+			productRefGroup = AE651C6E2681D77700499DE9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AE651C482681C27300499DE9 /* Bike Router */,
+				AE651C6C2681D77700499DE9 /* GettingStarted */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AE651C472681C27300499DE9 /* Resources */ = {
+		AE651C6B2681D77700499DE9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE651C622681C81300499DE9 /* map.png in Resources */,
-				AE651C592681C27F00499DE9 /* LaunchScreen.storyboard in Resources */,
-				AE651C562681C27F00499DE9 /* Assets.xcassets in Resources */,
-				AE651C632681C81300499DE9 /* bike router.png in Resources */,
-				AE651C542681C27300499DE9 /* Main.storyboard in Resources */,
+				AE651C7D2681D79000499DE9 /* LaunchScreen.storyboard in Resources */,
+				AE651C7A2681D79000499DE9 /* Assets.xcassets in Resources */,
+				AE651C782681D77700499DE9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AE651C452681C27300499DE9 /* Sources */ = {
+		AE651C692681D77700499DE9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE651C512681C27300499DE9 /* ViewController.swift in Sources */,
-				AE651C4D2681C27300499DE9 /* AppDelegate.swift in Sources */,
-				AE651C4F2681C27300499DE9 /* SceneDelegate.swift in Sources */,
+				AE651C752681D77700499DE9 /* ViewController.swift in Sources */,
+				AE651C712681D77700499DE9 /* AppDelegate.swift in Sources */,
+				AE651C732681D77700499DE9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AE651C522681C27300499DE9 /* Main.storyboard */ = {
+		AE651C762681D77700499DE9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AE651C532681C27300499DE9 /* Base */,
+				AE651C772681D77700499DE9 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		AE651C572681C27F00499DE9 /* LaunchScreen.storyboard */ = {
+		AE651C7B2681D79000499DE9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AE651C582681C27F00499DE9 /* Base */,
+				AE651C7C2681D79000499DE9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -173,7 +165,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		AE651C5B2681C27F00499DE9 /* Debug */ = {
+		AE651C7F2681D79000499DE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -234,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		AE651C5C2681C27F00499DE9 /* Release */ = {
+		AE651C802681D79000499DE9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -289,36 +281,36 @@
 			};
 			name = Release;
 		};
-		AE651C5E2681C27F00499DE9 /* Debug */ = {
+		AE651C822681D79000499DE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Bike Router/Info.plist";
+				INFOPLIST_FILE = GettingStarted/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Swift.Bike-Router";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Swift.GettingStarted;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		AE651C5F2681C27F00499DE9 /* Release */ = {
+		AE651C832681D79000499DE9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Bike Router/Info.plist";
+				INFOPLIST_FILE = GettingStarted/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Swift.Bike-Router";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Swift.GettingStarted;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -328,25 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AE651C442681C27300499DE9 /* Build configuration list for PBXProject "Bike Router" */ = {
+		AE651C682681D77700499DE9 /* Build configuration list for PBXProject "GettingStarted" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AE651C5B2681C27F00499DE9 /* Debug */,
-				AE651C5C2681C27F00499DE9 /* Release */,
+				AE651C7F2681D79000499DE9 /* Debug */,
+				AE651C802681D79000499DE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE651C5D2681C27F00499DE9 /* Build configuration list for PBXNativeTarget "Bike Router" */ = {
+		AE651C812681D79000499DE9 /* Build configuration list for PBXNativeTarget "GettingStarted" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AE651C5E2681C27F00499DE9 /* Debug */,
-				AE651C5F2681C27F00499DE9 /* Release */,
+				AE651C822681D79000499DE9 /* Debug */,
+				AE651C832681D79000499DE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AE651C412681C27300499DE9 /* Project object */;
+	rootObject = AE651C652681D77700499DE9 /* Project object */;
 }
