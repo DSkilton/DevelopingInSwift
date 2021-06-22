@@ -12,7 +12,7 @@
         <!--LoginViewController-->
         <scene sceneID="ulS-9E-psB">
             <objects>
-                <viewController title="LoginViewController" id="rhT-mG-zam" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginView" title="LoginViewController" id="rhT-mG-zam" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8UM-g5-TRu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -75,7 +75,7 @@
         <!--MapViewController-->
         <scene sceneID="L3j-rz-3va">
             <objects>
-                <viewController title="MapViewController" id="U97-83-EKg" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MapView" title="MapViewController" id="U97-83-EKg" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uGJ-s7-Nk7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -120,7 +120,7 @@
         <!--View Controller-->
         <scene sceneID="9s2-o5-E0B">
             <objects>
-                <viewController id="a5F-rC-bs0" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PhotoView" id="a5F-rC-bs0" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xau-io-rVk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
