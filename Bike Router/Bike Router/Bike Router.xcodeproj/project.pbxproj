@@ -9,25 +9,25 @@
 /* Begin PBXBuildFile section */
 		AE651C4D2681C27300499DE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE651C4C2681C27300499DE9 /* AppDelegate.swift */; };
 		AE651C4F2681C27300499DE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE651C4E2681C27300499DE9 /* SceneDelegate.swift */; };
-		AE651C512681C27300499DE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE651C502681C27300499DE9 /* ViewController.swift */; };
 		AE651C542681C27300499DE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE651C522681C27300499DE9 /* Main.storyboard */; };
 		AE651C562681C27F00499DE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE651C552681C27F00499DE9 /* Assets.xcassets */; };
 		AE651C592681C27F00499DE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE651C572681C27F00499DE9 /* LaunchScreen.storyboard */; };
 		AE651C622681C81300499DE9 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = AE651C602681C81200499DE9 /* map.png */; };
 		AE651C632681C81300499DE9 /* bike router.png in Resources */ = {isa = PBXBuildFile; fileRef = AE651C612681C81300499DE9 /* bike router.png */; };
+		AE651CA52681E7E800499DE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE651CA42681E7E800499DE9 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AE651C492681C27300499DE9 /* Bike Router.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bike Router.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE651C4C2681C27300499DE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE651C4E2681C27300499DE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AE651C502681C27300499DE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AE651C532681C27300499DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE651C552681C27F00499DE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE651C582681C27F00499DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE651C5A2681C27F00499DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE651C602681C81200499DE9 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
 		AE651C612681C81300499DE9 /* bike router.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bike router.png"; sourceTree = "<group>"; };
+		AE651CA42681E7E800499DE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 			children = (
 				AE651C4C2681C27300499DE9 /* AppDelegate.swift */,
 				AE651C4E2681C27300499DE9 /* SceneDelegate.swift */,
-				AE651C502681C27300499DE9 /* ViewController.swift */,
+				AE651CA42681E7E800499DE9 /* ViewController.swift */,
 				AE651C522681C27300499DE9 /* Main.storyboard */,
 				AE651C602681C81200499DE9 /* map.png */,
 				AE651C552681C27F00499DE9 /* Assets.xcassets */,
@@ -145,7 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE651C512681C27300499DE9 /* ViewController.swift in Sources */,
+				AE651CA52681E7E800499DE9 /* ViewController.swift in Sources */,
 				AE651C4D2681C27300499DE9 /* AppDelegate.swift in Sources */,
 				AE651C4F2681C27300499DE9 /* SceneDelegate.swift in Sources */,
 			);
