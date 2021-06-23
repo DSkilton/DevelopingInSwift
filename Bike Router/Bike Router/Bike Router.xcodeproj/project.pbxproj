@@ -12,7 +12,6 @@
 		AE651C4F2681C27300499DE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE651C4E2681C27300499DE9 /* SceneDelegate.swift */; };
 		AE651C542681C27300499DE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE651C522681C27300499DE9 /* Main.storyboard */; };
 		AE651C562681C27F00499DE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE651C552681C27F00499DE9 /* Assets.xcassets */; };
-		AE651C592681C27F00499DE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE651C572681C27F00499DE9 /* LaunchScreen.storyboard */; };
 		AE651C622681C81300499DE9 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = AE651C602681C81200499DE9 /* map.png */; };
 		AE651C632681C81300499DE9 /* bike router.png in Resources */ = {isa = PBXBuildFile; fileRef = AE651C612681C81300499DE9 /* bike router.png */; };
 		AE651CA52681E7E800499DE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE651CA42681E7E800499DE9 /* ViewController.swift */; };
@@ -25,7 +24,6 @@
 		AE651C4E2681C27300499DE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AE651C532681C27300499DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE651C552681C27F00499DE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AE651C582681C27F00499DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE651C5A2681C27F00499DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE651C602681C81200499DE9 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
 		AE651C612681C81300499DE9 /* bike router.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bike router.png"; sourceTree = "<group>"; };
@@ -70,7 +68,6 @@
 				AE651C602681C81200499DE9 /* map.png */,
 				AE651C552681C27F00499DE9 /* Assets.xcassets */,
 				AE651C612681C81300499DE9 /* bike router.png */,
-				AE651C572681C27F00499DE9 /* LaunchScreen.storyboard */,
 				AE651C5A2681C27F00499DE9 /* Info.plist */,
 			);
 			path = "Bike Router";
@@ -134,7 +131,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE651C622681C81300499DE9 /* map.png in Resources */,
-				AE651C592681C27F00499DE9 /* LaunchScreen.storyboard in Resources */,
 				AE651C562681C27F00499DE9 /* Assets.xcassets in Resources */,
 				AE651C632681C81300499DE9 /* bike router.png in Resources */,
 				AE651C542681C27300499DE9 /* Main.storyboard in Resources */,
@@ -164,14 +160,6 @@
 				AE651C532681C27300499DE9 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		AE651C572681C27F00499DE9 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AE651C582681C27F00499DE9 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

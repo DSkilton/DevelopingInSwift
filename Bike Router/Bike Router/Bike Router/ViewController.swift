@@ -9,29 +9,33 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var lightButton: UIButton!
-    let storyBoard: UIStoryboard = UIStoryboard(name:"MapViewController", bundle:nil)
+    let storyBoard: UIStoryboard = UIStoryboard(name:"ViewController", bundle:nil)
     
-    var lightOn = true
+//    @IBOutlet weak var lightButton: UIButton!
+//    var lightOn = true
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
         view.backgroundColor = UIColor.orange
     }
     
-    func updateUI(){
-        lightButton.setTitle("Toggle Light", for: .normal)
+    func login(){
+        let MapViewController = self.storyboard?.instantiateViewController(withIdentifier: "MapViewController") as! MapViewController
+
+        show(MapViewController, sender: self)
     }
     
-    @IBAction func lightTogle(_ sender: UIButton){
-        print("Toggle Light")
-    }
+//    func updateUI(){
+//             lightButton.setTitle("Toggle Light", for: .normal)
+//    }
     
-    @IBAction func toggle(_ sender: UIButton){
-        print("Sencondnary Toggle Light")
-    }
+//        @IBAction func lightTogle(_ sender: UIButton){
+//       print("Toggle Light")
+//    }
+    
+//      @IBAction func toggle(_ sender: UIButton){
+//    print("Sencondnary Toggle Light")
+//    }
 
     	
     

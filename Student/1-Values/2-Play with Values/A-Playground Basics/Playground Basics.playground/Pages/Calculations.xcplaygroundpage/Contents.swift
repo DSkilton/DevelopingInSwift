@@ -30,6 +30,8 @@ The asterisk `*` is the multiplication operator:
 (8 + 2) * 5
 120 / (6 * 2)
 (300 + 500 + 400) / (6 / 2)
+print(9*8)
+
 /*:
  - Experiment: 
 Practice using the playground like a calculator.
