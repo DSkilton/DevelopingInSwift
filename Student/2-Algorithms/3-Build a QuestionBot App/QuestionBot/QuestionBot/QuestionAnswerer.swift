@@ -1,5 +1,9 @@
 struct MyQuestionAnswerer {
     func responseTo(question: String) -> String {
+        //consider using an array of answers and rand to pick a response
+        //there is a .contains() function
+        
+        
         let lowerQuestion = question.lowercased()
         
         if lowerQuestion.hasPrefix("where are the cookies") {
