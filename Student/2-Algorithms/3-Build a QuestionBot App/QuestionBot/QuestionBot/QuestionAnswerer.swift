@@ -1,14 +1,27 @@
 struct MyQuestionAnswerer {
     func responseTo(question: String) -> String {
-
-        if question.hasPrefix("hello"){
-            return "sup"
-        } else if question.hasPrefix("where"){
-            return "Yo mumma's house!"
-        } else if question.hasPrefix("who"){
-            return "I am your father"
-        }
+        let lowerQuestion = question.lowercased()
         
-        return "I don't follow"
+        if lowerQuestion.hasPrefix("where are the cookies") {
+                return "In the cookie jar"
+        } else if lowerQuestion.hasPrefix("hello"){
+            return "sup"
+        } else if lowerQuestion.hasPrefix("where"){
+            return "Yo mumma's house!"
+        } else if lowerQuestion.hasPrefix("who"){
+            return "I am your father"
+        } else{
+            let sum = question.count % 2
+            //let rand = Int.random(in:0...2)
+            
+            if sum == 0{
+                return "Have you been good enough"
+            } else if sum == 1 {
+                return "I don't know"
+            } else if sum == 2 && lowerQuestion.contains("please"){
+                return "only because you asked nicely"
+            }
+            return "I don't follow"
+        }
     }
 }
