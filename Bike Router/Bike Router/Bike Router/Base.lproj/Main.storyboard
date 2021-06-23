@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rhT-mG-zam">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
@@ -17,10 +17,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AP5-WO-5Kq">
-                                <rect key="frame" x="16" y="777" width="122" height="85"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AP5-WO-5Kq">
+                                <rect key="frame" x="16" y="833" width="82" height="44"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="122" id="wYH-u0-Kxw"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Sign Up">
@@ -28,10 +30,13 @@
                                     <color key="titleShadowColor" systemColor="opaqueSeparatorColor"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ll4-s6-Upe">
-                                <rect key="frame" x="146" y="777" width="122" height="85"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ll4-s6-Upe">
+                                <rect key="frame" x="146" y="833" width="122" height="44"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="122" id="On9-1t-D4T"/>
+                                    <constraint firstAttribute="height" constant="44" id="ihc-3d-Ce3"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Login Up">
@@ -42,9 +47,8 @@
                                     <segue destination="U97-83-EKg" kind="show" id="SR2-T5-M4L"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CkE-Zp-giG">
-                                <rect key="frame" x="276" y="777" width="122" height="85"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CkE-Zp-giG">
+                                <rect key="frame" x="276" y="833" width="122" height="41"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -53,22 +57,37 @@
                                     <color key="titleShadowColor" systemColor="opaqueSeparatorColor"/>
                                 </state>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bike router.png" translatesAutoresizingMaskIntoConstraints="NO" id="elz-Bc-bGQ">
-                                <rect key="frame" x="20" y="189" width="374" height="519"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Trail Finder" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s2O-y4-GU0">
-                                <rect key="frame" x="20" y="44" width="374" height="137"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trail Finder" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s2O-y4-GU0">
+                                <rect key="frame" x="20" y="44" width="374" height="41"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bike router.png" translatesAutoresizingMaskIntoConstraints="NO" id="elz-Bc-bGQ">
+                                <rect key="frame" x="20" y="243.40319361276693" width="374" height="413"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="su6-zd-4FI"/>
                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                         <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="ll4-s6-Upe" firstAttribute="top" secondItem="CkE-Zp-giG" secondAttribute="top" id="0vq-N3-aIV"/>
+                            <constraint firstItem="ll4-s6-Upe" firstAttribute="centerX" secondItem="elz-Bc-bGQ" secondAttribute="centerX" id="6qr-5x-nb7"/>
+                            <constraint firstItem="s2O-y4-GU0" firstAttribute="trailing" secondItem="8UM-g5-TRu" secondAttribute="trailingMargin" id="BZC-y1-dL4"/>
+                            <constraint firstItem="s2O-y4-GU0" firstAttribute="leading" secondItem="8UM-g5-TRu" secondAttribute="leadingMargin" id="FHn-du-tcc"/>
+                            <constraint firstItem="AP5-WO-5Kq" firstAttribute="top" secondItem="ll4-s6-Upe" secondAttribute="top" id="H97-qa-vGe"/>
+                            <constraint firstItem="AP5-WO-5Kq" firstAttribute="leading" secondItem="su6-zd-4FI" secondAttribute="leading" constant="16" id="Mhk-ai-7ki"/>
+                            <constraint firstItem="s2O-y4-GU0" firstAttribute="leading" secondItem="elz-Bc-bGQ" secondAttribute="leading" id="N4D-4o-af6"/>
+                            <constraint firstItem="AP5-WO-5Kq" firstAttribute="firstBaseline" secondItem="ll4-s6-Upe" secondAttribute="baseline" id="YRF-eo-a1e"/>
+                            <constraint firstItem="elz-Bc-bGQ" firstAttribute="top" secondItem="s2O-y4-GU0" secondAttribute="bottom" constant="8" id="YkQ-Fs-xhh"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="ll4-s6-Upe" secondAttribute="bottom" constant="-15" id="kQ6-qr-5fD"/>
+                            <constraint firstItem="elz-Bc-bGQ" firstAttribute="centerY" secondItem="8UM-g5-TRu" secondAttribute="centerY" id="mme-VC-K7H"/>
+                            <constraint firstItem="CkE-Zp-giG" firstAttribute="leading" secondItem="ll4-s6-Upe" secondAttribute="trailing" constant="8" id="qWg-wN-VWg"/>
+                            <constraint firstItem="s2O-y4-GU0" firstAttribute="top" secondItem="su6-zd-4FI" secondAttribute="top" id="rr8-2u-Oc3"/>
+                            <constraint firstItem="su6-zd-4FI" firstAttribute="trailing" secondItem="CkE-Zp-giG" secondAttribute="trailing" constant="16" id="s2B-gl-vxV"/>
+                            <constraint firstItem="s2O-y4-GU0" firstAttribute="trailing" secondItem="elz-Bc-bGQ" secondAttribute="trailing" id="xtv-a0-Jz7"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T4u-7v-fir" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -83,13 +102,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="map.png" translatesAutoresizingMaskIntoConstraints="NO" id="3T7-Cn-T33">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="772"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SpN-rx-yXm">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="8xG-fJ-MdR">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="764"/>
+                            </mapView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SpN-rx-yXm">
                                 <rect key="frame" x="0.0" y="764" width="414" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGroupedBackgroundColor"/>
                                 <items>
                                     <barButtonItem title="Item" image="pin" catalog="system" id="18c-Ii-Ias"/>
@@ -114,6 +131,14 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Dnp-d3-kDO"/>
                         <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <constraints>
+                            <constraint firstItem="SpN-rx-yXm" firstAttribute="top" secondItem="8xG-fJ-MdR" secondAttribute="bottom" id="0Ct-ju-0bY"/>
+                            <constraint firstItem="8xG-fJ-MdR" firstAttribute="top" secondItem="Dnp-d3-kDO" secondAttribute="top" id="8lc-ic-K6s"/>
+                            <constraint firstItem="SpN-rx-yXm" firstAttribute="top" secondItem="Dnp-d3-kDO" secondAttribute="top" constant="764" id="DR9-7x-Vbj"/>
+                            <constraint firstItem="SpN-rx-yXm" firstAttribute="bottom" secondItem="Dnp-d3-kDO" secondAttribute="bottom" id="Ncd-Rm-XCt"/>
+                            <constraint firstItem="8xG-fJ-MdR" firstAttribute="leading" secondItem="Dnp-d3-kDO" secondAttribute="leading" id="t04-eg-NrH"/>
+                            <constraint firstItem="Dnp-d3-kDO" firstAttribute="trailing" secondItem="8xG-fJ-MdR" secondAttribute="trailing" id="u6U-Cq-k8S"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="pFN-Hi-kWV"/>
                 </viewController>
@@ -147,7 +172,6 @@
     </scenes>
     <resources>
         <image name="bike router.png" width="797" height="710"/>
-        <image name="map.png" width="730.5" height="523.5"/>
         <image name="photo" catalog="system" width="128" height="93"/>
         <image name="pin" catalog="system" width="119" height="128"/>
         <image name="record.circle" catalog="system" width="128" height="121"/>

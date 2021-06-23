@@ -11,9 +11,7 @@ This style of text is *editable code*, which means you can write it or change it
 
 For negative numbers use the minus sign:
  */
--120
-
-
+-1200
 /*:
 Notice how the numbers also show up in the gray area to the right? 👉
 
