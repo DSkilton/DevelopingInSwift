@@ -17,19 +17,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AP5-WO-5Kq">
-                                <rect key="frame" x="16" y="833" width="82" height="44"/>
-                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="122" id="wYH-u0-Kxw"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Sign Up">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="titleShadowColor" systemColor="opaqueSeparatorColor"/>
-                                </state>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ll4-s6-Upe">
                                 <rect key="frame" x="146" y="833" width="122" height="44"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
@@ -44,7 +31,7 @@
                                     <color key="titleShadowColor" systemColor="opaqueSeparatorColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="U97-83-EKg" kind="show" id="SR2-T5-M4L"/>
+                                    <segue destination="U97-83-EKg" kind="show" id="Cvf-Rx-vOJ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CkE-Zp-giG">
@@ -67,22 +54,39 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bike router.png" translatesAutoresizingMaskIntoConstraints="NO" id="elz-Bc-bGQ">
                                 <rect key="frame" x="20" y="243.40319361276693" width="374" height="413"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AP5-WO-5Kq">
+                                <rect key="frame" x="16" y="833" width="122" height="44"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="122" id="wYH-u0-Kxw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Sign Up">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" systemColor="opaqueSeparatorColor"/>
+                                </state>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="su6-zd-4FI"/>
                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="ll4-s6-Upe" firstAttribute="top" secondItem="CkE-Zp-giG" secondAttribute="top" id="0vq-N3-aIV"/>
-                            <constraint firstItem="ll4-s6-Upe" firstAttribute="centerX" secondItem="elz-Bc-bGQ" secondAttribute="centerX" id="6qr-5x-nb7"/>
+                            <constraint firstItem="ll4-s6-Upe" firstAttribute="leading" secondItem="AP5-WO-5Kq" secondAttribute="trailing" constant="48" id="2Nb-RL-nZy"/>
+                            <constraint firstItem="CkE-Zp-giG" firstAttribute="leading" secondItem="ll4-s6-Upe" secondAttribute="trailing" constant="8" symbolic="YES" id="5tw-SY-2Ik"/>
                             <constraint firstItem="s2O-y4-GU0" firstAttribute="trailing" secondItem="8UM-g5-TRu" secondAttribute="trailingMargin" id="BZC-y1-dL4"/>
                             <constraint firstItem="s2O-y4-GU0" firstAttribute="leading" secondItem="8UM-g5-TRu" secondAttribute="leadingMargin" id="FHn-du-tcc"/>
                             <constraint firstItem="AP5-WO-5Kq" firstAttribute="top" secondItem="ll4-s6-Upe" secondAttribute="top" id="H97-qa-vGe"/>
+                            <constraint firstItem="CkE-Zp-giG" firstAttribute="leading" secondItem="ll4-s6-Upe" secondAttribute="trailing" constant="8" symbolic="YES" id="Jsd-dz-2yY"/>
                             <constraint firstItem="AP5-WO-5Kq" firstAttribute="leading" secondItem="su6-zd-4FI" secondAttribute="leading" constant="16" id="Mhk-ai-7ki"/>
                             <constraint firstItem="s2O-y4-GU0" firstAttribute="leading" secondItem="elz-Bc-bGQ" secondAttribute="leading" id="N4D-4o-af6"/>
                             <constraint firstItem="AP5-WO-5Kq" firstAttribute="firstBaseline" secondItem="ll4-s6-Upe" secondAttribute="baseline" id="YRF-eo-a1e"/>
+                            <constraint firstItem="su6-zd-4FI" firstAttribute="trailing" secondItem="CkE-Zp-giG" secondAttribute="trailing" constant="16" id="Yds-83-Tdo"/>
                             <constraint firstItem="elz-Bc-bGQ" firstAttribute="top" secondItem="s2O-y4-GU0" secondAttribute="bottom" constant="8" id="YkQ-Fs-xhh"/>
                             <constraint firstAttribute="bottomMargin" secondItem="ll4-s6-Upe" secondAttribute="bottom" constant="-15" id="kQ6-qr-5fD"/>
                             <constraint firstItem="elz-Bc-bGQ" firstAttribute="centerY" secondItem="8UM-g5-TRu" secondAttribute="centerY" id="mme-VC-K7H"/>
+                            <constraint firstItem="ll4-s6-Upe" firstAttribute="centerX" secondItem="8UM-g5-TRu" secondAttribute="centerX" id="o5B-jC-uUS"/>
                             <constraint firstItem="CkE-Zp-giG" firstAttribute="leading" secondItem="ll4-s6-Upe" secondAttribute="trailing" constant="8" id="qWg-wN-VWg"/>
                             <constraint firstItem="s2O-y4-GU0" firstAttribute="top" secondItem="su6-zd-4FI" secondAttribute="top" id="rr8-2u-Oc3"/>
                             <constraint firstItem="su6-zd-4FI" firstAttribute="trailing" secondItem="CkE-Zp-giG" secondAttribute="trailing" constant="16" id="s2B-gl-vxV"/>
@@ -97,7 +101,7 @@
         <!--MapViewController-->
         <scene sceneID="L3j-rz-3va">
             <objects>
-                <viewController storyboardIdentifier="MapView" title="MapViewController" id="U97-83-EKg" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MapView" title="MapViewController" id="U97-83-EKg" customClass="MapViewController" customModule="Bike_Router" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uGJ-s7-Nk7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

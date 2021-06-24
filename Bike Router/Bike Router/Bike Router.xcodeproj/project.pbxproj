@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AE0B95DC26822E92003F82EB /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0B95DB26822E92003F82EB /* MapViewController.swift */; };
-		AE0B95FE26847E5B003F82EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE0B95FD26847E5B003F82EB /* LaunchScreen.storyboard */; };
+		AE0B962026849BAD003F82EB /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE0B961F26849BAD003F82EB /* Launch Screen.storyboard */; };
 		AE651C4D2681C27300499DE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE651C4C2681C27300499DE9 /* AppDelegate.swift */; };
 		AE651C4F2681C27300499DE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE651C4E2681C27300499DE9 /* SceneDelegate.swift */; };
 		AE651C542681C27300499DE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE651C522681C27300499DE9 /* Main.storyboard */; };
@@ -20,7 +20,7 @@
 
 /* Begin PBXFileReference section */
 		AE0B95DB26822E92003F82EB /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		AE0B95FD26847E5B003F82EB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE0B961F26849BAD003F82EB /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		AE651C492681C27300499DE9 /* Bike Router.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bike Router.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE651C4C2681C27300499DE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE651C4E2681C27300499DE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,8 +67,8 @@
 				AE651CA42681E7E800499DE9 /* ViewController.swift */,
 				AE0B95DB26822E92003F82EB /* MapViewController.swift */,
 				AE651C522681C27300499DE9 /* Main.storyboard */,
-				AE0B95FD26847E5B003F82EB /* LaunchScreen.storyboard */,
 				AE651C602681C81200499DE9 /* map.png */,
+				AE0B961F26849BAD003F82EB /* Launch Screen.storyboard */,
 				AE651C552681C27F00499DE9 /* Assets.xcassets */,
 				AE651C612681C81300499DE9 /* bike router.png */,
 				AE651C5A2681C27F00499DE9 /* Info.plist */,
@@ -136,7 +136,7 @@
 				AE651C622681C81300499DE9 /* map.png in Resources */,
 				AE651C562681C27F00499DE9 /* Assets.xcassets in Resources */,
 				AE651C632681C81300499DE9 /* bike router.png in Resources */,
-				AE0B95FE26847E5B003F82EB /* LaunchScreen.storyboard in Resources */,
+				AE0B962026849BAD003F82EB /* Launch Screen.storyboard in Resources */,
 				AE651C542681C27300499DE9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
