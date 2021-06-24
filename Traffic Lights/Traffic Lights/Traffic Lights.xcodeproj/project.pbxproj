@@ -7,33 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AE0B95DC26822E92003F82EB /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0B95DB26822E92003F82EB /* MapViewController.swift */; };
-		AE0B95FE26847E5B003F82EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE0B95FD26847E5B003F82EB /* LaunchScreen.storyboard */; };
-		AE651C4D2681C27300499DE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE651C4C2681C27300499DE9 /* AppDelegate.swift */; };
-		AE651C4F2681C27300499DE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE651C4E2681C27300499DE9 /* SceneDelegate.swift */; };
-		AE651C542681C27300499DE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE651C522681C27300499DE9 /* Main.storyboard */; };
-		AE651C562681C27F00499DE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE651C552681C27F00499DE9 /* Assets.xcassets */; };
-		AE651C622681C81300499DE9 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = AE651C602681C81200499DE9 /* map.png */; };
-		AE651C632681C81300499DE9 /* bike router.png in Resources */ = {isa = PBXBuildFile; fileRef = AE651C612681C81300499DE9 /* bike router.png */; };
-		AE651CA52681E7E800499DE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE651CA42681E7E800499DE9 /* ViewController.swift */; };
+		AE0B960C26847FF2003F82EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0B960B26847FF2003F82EB /* AppDelegate.swift */; };
+		AE0B960E26847FF2003F82EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0B960D26847FF2003F82EB /* SceneDelegate.swift */; };
+		AE0B961026847FF2003F82EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0B960F26847FF2003F82EB /* ViewController.swift */; };
+		AE0B961326847FF2003F82EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE0B961126847FF2003F82EB /* Main.storyboard */; };
+		AE0B961526848003003F82EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE0B961426848003003F82EB /* Assets.xcassets */; };
+		AE0B961826848003003F82EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE0B961626848003003F82EB /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AE0B95DB26822E92003F82EB /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		AE0B95FD26847E5B003F82EB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AE651C492681C27300499DE9 /* Bike Router.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bike Router.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE651C4C2681C27300499DE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AE651C4E2681C27300499DE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AE651C532681C27300499DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AE651C552681C27F00499DE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AE651C5A2681C27F00499DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE651C602681C81200499DE9 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
-		AE651C612681C81300499DE9 /* bike router.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bike router.png"; sourceTree = "<group>"; };
-		AE651CA42681E7E800499DE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE0B960826847FF2003F82EB /* Traffic Lights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Traffic Lights.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE0B960B26847FF2003F82EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE0B960D26847FF2003F82EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AE0B960F26847FF2003F82EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE0B961226847FF2003F82EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE0B961426848003003F82EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE0B961726848003003F82EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE0B961926848003003F82EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AE651C462681C27300499DE9 /* Frameworks */ = {
+		AE0B960526847FF2003F82EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,74 +37,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AE651C402681C27300499DE9 = {
+		AE0B95FF26847FF2003F82EB = {
 			isa = PBXGroup;
 			children = (
-				AE651C4B2681C27300499DE9 /* Bike Router */,
-				AE651C4A2681C27300499DE9 /* Products */,
+				AE0B960A26847FF2003F82EB /* Traffic Lights */,
+				AE0B960926847FF2003F82EB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AE651C4A2681C27300499DE9 /* Products */ = {
+		AE0B960926847FF2003F82EB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AE651C492681C27300499DE9 /* Bike Router.app */,
+				AE0B960826847FF2003F82EB /* Traffic Lights.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AE651C4B2681C27300499DE9 /* Bike Router */ = {
+		AE0B960A26847FF2003F82EB /* Traffic Lights */ = {
 			isa = PBXGroup;
 			children = (
-				AE651C4C2681C27300499DE9 /* AppDelegate.swift */,
-				AE651C4E2681C27300499DE9 /* SceneDelegate.swift */,
-				AE651CA42681E7E800499DE9 /* ViewController.swift */,
-				AE0B95DB26822E92003F82EB /* MapViewController.swift */,
-				AE651C522681C27300499DE9 /* Main.storyboard */,
-				AE0B95FD26847E5B003F82EB /* LaunchScreen.storyboard */,
-				AE651C602681C81200499DE9 /* map.png */,
-				AE651C552681C27F00499DE9 /* Assets.xcassets */,
-				AE651C612681C81300499DE9 /* bike router.png */,
-				AE651C5A2681C27F00499DE9 /* Info.plist */,
+				AE0B960B26847FF2003F82EB /* AppDelegate.swift */,
+				AE0B960D26847FF2003F82EB /* SceneDelegate.swift */,
+				AE0B960F26847FF2003F82EB /* ViewController.swift */,
+				AE0B961126847FF2003F82EB /* Main.storyboard */,
+				AE0B961426848003003F82EB /* Assets.xcassets */,
+				AE0B961626848003003F82EB /* LaunchScreen.storyboard */,
+				AE0B961926848003003F82EB /* Info.plist */,
 			);
-			path = "Bike Router";
+			path = "Traffic Lights";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AE651C482681C27300499DE9 /* Bike Router */ = {
+		AE0B960726847FF2003F82EB /* Traffic Lights */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE651C5D2681C27F00499DE9 /* Build configuration list for PBXNativeTarget "Bike Router" */;
+			buildConfigurationList = AE0B961C26848003003F82EB /* Build configuration list for PBXNativeTarget "Traffic Lights" */;
 			buildPhases = (
-				AE651C452681C27300499DE9 /* Sources */,
-				AE651C462681C27300499DE9 /* Frameworks */,
-				AE651C472681C27300499DE9 /* Resources */,
+				AE0B960426847FF2003F82EB /* Sources */,
+				AE0B960526847FF2003F82EB /* Frameworks */,
+				AE0B960626847FF2003F82EB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Bike Router";
-			productName = "Bike Router";
-			productReference = AE651C492681C27300499DE9 /* Bike Router.app */;
+			name = "Traffic Lights";
+			productName = "Traffic Lights";
+			productReference = AE0B960826847FF2003F82EB /* Traffic Lights.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AE651C412681C27300499DE9 /* Project object */ = {
+		AE0B960026847FF2003F82EB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					AE651C482681C27300499DE9 = {
+					AE0B960726847FF2003F82EB = {
 						CreatedOnToolsVersion = 12.5;
 					};
 				};
 			};
-			buildConfigurationList = AE651C442681C27300499DE9 /* Build configuration list for PBXProject "Bike Router" */;
+			buildConfigurationList = AE0B960326847FF2003F82EB /* Build configuration list for PBXProject "Traffic Lights" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,58 +109,63 @@
 				en,
 				Base,
 			);
-			mainGroup = AE651C402681C27300499DE9;
-			productRefGroup = AE651C4A2681C27300499DE9 /* Products */;
+			mainGroup = AE0B95FF26847FF2003F82EB;
+			productRefGroup = AE0B960926847FF2003F82EB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AE651C482681C27300499DE9 /* Bike Router */,
+				AE0B960726847FF2003F82EB /* Traffic Lights */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AE651C472681C27300499DE9 /* Resources */ = {
+		AE0B960626847FF2003F82EB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE651C622681C81300499DE9 /* map.png in Resources */,
-				AE651C562681C27F00499DE9 /* Assets.xcassets in Resources */,
-				AE651C632681C81300499DE9 /* bike router.png in Resources */,
-				AE0B95FE26847E5B003F82EB /* LaunchScreen.storyboard in Resources */,
-				AE651C542681C27300499DE9 /* Main.storyboard in Resources */,
+				AE0B961826848003003F82EB /* LaunchScreen.storyboard in Resources */,
+				AE0B961526848003003F82EB /* Assets.xcassets in Resources */,
+				AE0B961326847FF2003F82EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AE651C452681C27300499DE9 /* Sources */ = {
+		AE0B960426847FF2003F82EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE651CA52681E7E800499DE9 /* ViewController.swift in Sources */,
-				AE651C4D2681C27300499DE9 /* AppDelegate.swift in Sources */,
-				AE651C4F2681C27300499DE9 /* SceneDelegate.swift in Sources */,
-				AE0B95DC26822E92003F82EB /* MapViewController.swift in Sources */,
+				AE0B961026847FF2003F82EB /* ViewController.swift in Sources */,
+				AE0B960C26847FF2003F82EB /* AppDelegate.swift in Sources */,
+				AE0B960E26847FF2003F82EB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AE651C522681C27300499DE9 /* Main.storyboard */ = {
+		AE0B961126847FF2003F82EB /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AE651C532681C27300499DE9 /* Base */,
+				AE0B961226847FF2003F82EB /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE0B961626848003003F82EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE0B961726848003003F82EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		AE651C5B2681C27F00499DE9 /* Debug */ = {
+		AE0B961A26848003003F82EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		AE651C5C2681C27F00499DE9 /* Release */ = {
+		AE0B961B26848003003F82EB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -285,36 +281,36 @@
 			};
 			name = Release;
 		};
-		AE651C5E2681C27F00499DE9 /* Debug */ = {
+		AE0B961D26848003003F82EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Bike Router/Info.plist";
+				INFOPLIST_FILE = "Traffic Lights/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Swift.Bike-Router";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Swift.Traffic-Lights";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		AE651C5F2681C27F00499DE9 /* Release */ = {
+		AE0B961E26848003003F82EB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Bike Router/Info.plist";
+				INFOPLIST_FILE = "Traffic Lights/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Swift.Bike-Router";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Swift.Traffic-Lights";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -324,25 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AE651C442681C27300499DE9 /* Build configuration list for PBXProject "Bike Router" */ = {
+		AE0B960326847FF2003F82EB /* Build configuration list for PBXProject "Traffic Lights" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AE651C5B2681C27F00499DE9 /* Debug */,
-				AE651C5C2681C27F00499DE9 /* Release */,
+				AE0B961A26848003003F82EB /* Debug */,
+				AE0B961B26848003003F82EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE651C5D2681C27F00499DE9 /* Build configuration list for PBXNativeTarget "Bike Router" */ = {
+		AE0B961C26848003003F82EB /* Build configuration list for PBXNativeTarget "Traffic Lights" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AE651C5E2681C27F00499DE9 /* Debug */,
-				AE651C5F2681C27F00499DE9 /* Release */,
+				AE0B961D26848003003F82EB /* Debug */,
+				AE0B961E26848003003F82EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AE651C412681C27300499DE9 /* Project object */;
+	rootObject = AE0B960026847FF2003F82EB /* Project object */;
 }
